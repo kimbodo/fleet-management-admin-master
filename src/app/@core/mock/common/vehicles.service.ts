@@ -17,7 +17,7 @@ export class VehiclesService {
 
   data = [
     {
-      name: 'CR 1565',
+      name: 'DE QUINCY INDUSTRIAL AIRPARK - 5R8',
       vin: '1FVAF3CV84DM31815',
       model: 'model a',
       color: 'red',
@@ -53,7 +53,7 @@ export class VehiclesService {
       events: this.eventsService.getRandomEvents(),
       currentEvent: this.eventsService.getRandomEvent(),
     }, {
-      name: 'PN 8719',
+      name: 'COLUMBIA AIRPORT - F86',
       vin: 'JN1BY1AR3BM374797',
       model: 'model b',
       color: 'white',
@@ -93,7 +93,7 @@ export class VehiclesService {
       events: this.eventsService.getRandomEvents(),
       currentEvent: this.eventsService.getRandomEvent(),
     }, {
-      name: 'DL 6389',
+      name: 'BATON ROUGE METROPOLITAN AIRPORT - BTR',
       vin: '3VWDX7AJ5BM006256',
       model: 'model a',
       color: 'blue',
@@ -178,7 +178,7 @@ export class VehiclesService {
       events: this.eventsService.getRandomEvents(),
       currentEvent: this.eventsService.getRandomEvent(),
     }, {
-      name: 'VB 4285',
+      name: 'NEW ORLEANS LAKEFRONT AIRPORT - NEW',
       vin: 'WAUDFAFL6DN014563',
       model: 'model',
       color: 'blue',
@@ -209,7 +209,7 @@ export class VehiclesService {
       events: this.eventsService.getRandomEvents(),
       currentEvent: this.eventsService.getRandomEvent(),
     }, {
-      name: 'CR 8565',
+      name: 'VICKSBURG TALLULAH REGIONAL AIRPORT - TVR',
       vin: '1G1ZT51806F128009',
       model: 'model',
       color: 'blue',

@@ -52,7 +52,7 @@ export class AppComponent {
       'icon': 'book-open',
       'children': [
         {
-          'title': 'Vehicles Overview',
+          'title': 'Airports Overview',
           'link': '/overview/vehicles-overview',
           'children': null
         },
@@ -67,7 +67,7 @@ export class AppComponent {
           'children': null
         },
       ]
-    },
+    },  /*
     {
       'title': 'Vehicles',
       'link': '/vehicles',
@@ -90,6 +90,7 @@ export class AppComponent {
         },
       ]
     },
+  
     {
       'title': 'Trips',
       'link': '/trips',
@@ -111,7 +112,7 @@ export class AppComponent {
           'children': null
         },
       ]
-    },
+    }, */
     {
       'title': 'Maintenance',
       'link': '/maintenance',

@@ -80,7 +80,7 @@ export class HistoryTabsComponent implements OnInit {
 
   public planned = [
     {
-      name: 'CR 1565',
+      name: 'DE QUINCY INDUSTRIAL AIRPARK - 5R8',
       cost: '$105',
       status: 'OUT OF SERVICE',
       tasks: [

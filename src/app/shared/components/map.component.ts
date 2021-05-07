@@ -70,6 +70,7 @@ export class MapComponent implements OnInit, OnDestroy, AfterViewInit, AfterView
     if (data.markers !== null) {
       data.markers.forEach((mark) => {
         const imageUrl = `assets/images/${mark.type}-${mark.status}-marker.png`;
+        console.log(mark.lat + " " + mark.lng);
 
         const pointMarker = marker([mark.lat, mark.lng], {
           icon: icon({

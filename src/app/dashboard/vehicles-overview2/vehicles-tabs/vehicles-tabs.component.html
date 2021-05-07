@@ -8,7 +8,7 @@
     </div>
   </nb-tab>
 
-  <nb-tab tabTitle="driving" class="slot">
+  <nb-tab tabTitle="active" class="slot">
     <div class="space space-component43">
       <div class="space vehicle-list-item" *ngFor="let item of drivingVehicles">
         <app-vehicle (vehicleClicked)="handleVehicleClick()" (tripButtonClicked)="handleButtonClick()" [trip]="item"></app-vehicle>
@@ -16,7 +16,7 @@
     </div>
   </nb-tab>
 
-  <nb-tab tabTitle="parked" class="slot">
+  <nb-tab tabTitle="closed" class="slot">
     <div class="space space-component43">
       <div class="space vehicle-list-item" *ngFor="let item of parkedVehicles">
         <app-vehicle (vehicleClicked)="handleVehicleClick()" (tripButtonClicked)="handleButtonClick()" [trip]="item"></app-vehicle>

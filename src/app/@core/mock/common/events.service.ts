@@ -18,7 +18,7 @@ export class EventsService {
       vehicle: 'AB 2515',
     }, {
       status: EventStatus.SUCCESS,
-      message: 'Maintenance pased',
+      message: 'Maintenance passed',
       date: new Date(),
       vehicle: 'VB 2516',
     }, {
